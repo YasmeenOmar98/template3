@@ -372,15 +372,15 @@ hr{
         font-size: 30px;
      }
      .project h2{
-        margin-right: 70px;
+        margin-right: 40px;
      }
     .products-flex{
         flex-direction: column;
         margin-left: 10px;
     }
     .products-flex .product{
-        width: 95%;
-        margin-left: -10px;
+        width: 90%;
+        margin-left: 15px;
     }
     .product img{
         width:100%;
@@ -411,6 +411,7 @@ hr{
 }
 .service{
     flex-direction: column;
+        margin-left: 30px;
     }
 .contact{
     display:flex ;
@@ -418,6 +419,13 @@ hr{
 }
 .left-contact iframe{
     width: 350px;
+        margin-left: 20px;
+}
+ .right-contact input{
+    margin-left: 20px;
+}
+.right-contact textarea{
+    margin-left: 20px;
 }
 .top-footer{
     flex-direction: column;
