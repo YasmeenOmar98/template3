@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 body{
     font-family: "Roboto", sans-serif;
@@ -19,7 +20,7 @@ nav {
 }
 .containar{
     width: 90%;
-    margin:  auto 60px;
+    margin:  auto 30px;
 }
 .left-nav ul{
     display: flex;
