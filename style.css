@@ -416,7 +416,7 @@ hr{
     flex-direction: column;
 }
 .left-contact iframe{
-    width: 380px;
+    width: 350px;
 }
 .top-footer{
     flex-direction: column;
@@ -427,7 +427,7 @@ hr{
     gap: 20px;
 }
 .mid-footer div{
-    width: 90%;
+    width: 100%;
 }
 .buttom-footer{
     flex-direction: column;
