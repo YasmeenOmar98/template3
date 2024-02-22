@@ -1,0 +1,473 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    overflow-x: hidden;
+}
+/* ---Navbar------ */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9ece6;
+    padding: 20px 60px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.containar{
+    width: 90%;
+    margin:  auto 60px;
+}
+.left-nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.left-nav ul li a{
+    text-decoration: none;
+    color: black; 
+    font-weight: 600;
+    padding: 10px;
+    transition: 0.5s;
+}
+.left-nav ul li a:hover{
+    background-color: white;
+}
+
+.active{
+    background-color: white;
+}
+.right-nav{
+    display: flex;
+    gap: 25px;
+    font-size: 25px;
+    cursor: pointer;
+}
+.menu{
+    font-size: 25px;
+    display: none;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f89cab;
+}
+.left-header{
+    padding-bottom: 10px;
+    width: 35%;
+    margin:  90px;
+}
+.left-header h2{
+    color: white;
+    font-size: 40px;
+    margin-bottom:20px ;
+}
+.left-header p{
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.left-header button{
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid #db4566;
+    transition: 1s;
+}
+.left-header button:hover{
+    background-color: #db4566;
+}
+
+.project h2{
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 60px;
+    font-size: 27px;
+}
+.project span{
+    color: #db4566;
+}
+.products-flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.products-flex .product{
+    width: 24%;
+    background-color: #eee;
+
+}
+.product img{
+    width: 100%;
+    object-fit: contain;
+    height: 100px;
+}
+.product>*{
+    margin-bottom: 20px;
+}
+.product h3{
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    line-height: 40px;
+}
+.product div{
+    display: flex;
+    justify-content: space-between;
+}
+.section-banner{
+    background-color: #f89cab;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    margin-top: 50px;
+    align-items: center;
+    color: white;
+}
+.section-banner>*{
+    margin-bottom: 20px;
+}
+
+.right-banner h2{
+    font-size: 40px;
+    line-height: 1.5;
+}
+.right-banner p {
+    width:70% ;
+    font-size: 18px;
+    line-height: 1.5;
+}
+.right-banner div{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.buy-now{
+    padding: 15px;
+    width: 150px;
+    border: 1px solid #db4566;
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 700;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.buy-now:hover{
+    background-color: #db4566;
+}
+.see-more{
+    padding: 15px;
+    width: 150px;
+    border: 1px solid #db4566;
+    background-color:white;
+    font-size: 18px;
+    color:black;
+    letter-spacing: 1px;
+    font-weight: 500;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.see-more:hover{
+    background-color: #db4566;
+    color: white;
+}
+.h{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.services{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.service{
+    width: 28%;
+    background-color: #eee;
+    margin-bottom: 50px;
+    padding: 15px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.service>*{
+    margin-bottom: 15px;
+}
+.service i{
+   font-size: 30px;
+   padding: 10px;
+   height: 30px;
+   width: 30px;
+   border-radius: 50%;
+   background-color: #db4566;
+   color: white;
+   position: absolute;
+   top: -20px;
+   left:40%;
+}
+.service h2{
+    color: #db4566;
+    margin-top: 20px;
+}
+.Testimonails .h{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom:50px;
+    margin-top: 30px;
+}
+.Testimonails-flex{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+}
+.Testimonail{
+    width: 30%;
+    background-color: #eee;
+    margin-bottom: 50px;
+    padding: 10px;
+    line-height: 30px;
+}
+.Testimonail img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.Testimonail i{
+    color:yellow;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+.Testimonail h3{
+    color: #db4566;
+    margin-bottom: 20px;
+}
+.contact{
+    display: flex;
+    gap: 10px;
+}
+.right-contact input{
+    padding: 10px;
+    margin-top: 10px;
+    width: 90%;
+}
+.right-contact textarea{
+    padding: 10px;
+    margin-top: 10px;
+    width: 90%;
+}
+.footer-containt{
+    width: 80%;
+    margin: auto;
+}
+footer{
+    background-color: #232b37;
+    display: flex;
+    padding: 20px;
+    color: white;
+}
+.top-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-footer img{
+    width: 200px;
+}
+hr{
+    margin: 20px 0;
+    opacity: 0.4;
+}
+.d{
+    font-size: 14px;
+}
+.top-footer div{
+    color: wheat;
+    text-align: center;
+}
+.top-footer div h3{
+    color: gray;
+    margin-top: 5px;
+}
+.subscribe{
+    display: flex;
+    align-items: center;
+}
+.subscribe input{
+    padding: 10px;
+    outline: none;
+}
+.subscribe button{
+    padding: 8px;
+    color: white;
+    background-color: blue;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+.mid-footer{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.mid-footer div{
+    width: 30%;
+    text-align: center;
+}
+.mid-footer ul li{
+    list-style: none;
+}
+.mid-footer ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 35px;
+    transition: 0.7s;
+}
+.mid-footer ul li a:hover{
+    color: blue;
+}
+.buttom-footer{
+    display: flex;
+    justify-content: space-between;
+}
+@media  screen  and (max-width:480px) {
+    nav{
+        padding: 20px;
+
+    }
+    .left-nav ul{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+     .left-header{
+        padding-left: 0;
+        padding-top: 20px;
+        width: 100%;
+        margin-bottom: 10px;
+        text-align: center;
+     }
+     header{
+        display: flex;
+        flex-direction: column
+     }
+     .left-header h2{
+        font-size: 30px;
+     }
+     .project h2{
+        margin-right: 70px;
+     }
+    .products-flex{
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .products-flex .product{
+        width: 95%;
+        margin-left: -10px;
+    }
+    .product img{
+        width:100%;
+    }
+    .section-banner{
+        display: flex;
+        flex-direction: column;
+        margin-left:20px;
+    }
+    .section-banner img{
+        max-width: 100%;
+        text-align: center;
+
+    }
+
+    .right-banner h2{
+        font-size: 30px;
+}
+.right-banner{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.h{
+    margin-left: -20px;
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.service{
+    flex-direction: column;
+    }
+.contact{
+    display:flex ;
+    flex-direction: column;
+}
+.left-contact iframe{
+    width: 380px;
+}
+.top-footer{
+    flex-direction: column;
+    gap: 20px;
+}
+.mid-footer{
+    flex-direction: column;
+    gap: 20px;
+}
+.mid-footer div{
+    width: 90%;
+}
+.buttom-footer{
+    flex-direction: column;
+    gap: 20px;
+}
+.Testimonails-flex{
+    flex-direction: column;
+}
+.Testimonail{
+    width: 90%;
+}
+.services{
+    flex-direction: column;
+}
+.service{
+    width: 80%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
